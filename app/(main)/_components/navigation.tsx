@@ -17,8 +17,7 @@ export const Navigation = () => {
                 className="group/sidebar h-full bg-secondary overflow-auto
                 relative flex w-60 flex-col z-[99999]"
             >
-                <div
-                    role="button"
+                <div role="button"
                     className="h-6 w-6 text-muted-foreground rounded-sm
                 hover:bg-neutral-300 dar:hover:bg-neutral-600 absolute
                 top-3 right-2 opacity-0 group-hover/sidebar:opacity-100

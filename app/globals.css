@@ -4,7 +4,11 @@
 
 html,
 body,
-base {
+:root {
+  height: 100%;
+}
+
+@layer base {
   :root {
     --background: 0 0% 100%;
     --foreground: 0 0% 3.9%;
